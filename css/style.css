@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    background-color: black;
+}
+
+.newsletter
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50em;
+    height: 32em;
+    background-color: white;
+    border-radius: 2em;
+}
+
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 28em;
+    height: 31em;
+    padding: 2em;
+}
+
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 23em;
+    height: 31em;
+}
+
+.nwl{
+    width: 85%;
+}
+
+li{
+    list-style: none;
+    width: 28em;
+    display: flex;
+    margin-left: 3.8em;
+    margin-top: 8px;
+}
+
+.header{
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+}
+
+img{
+    margin-right: 10px;
+}
+
+.email-component{
+    width: 28em;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    /* margin-left: 2em; */
+    padding: 2em;
+    margin-left: 20px;
+}
+
+.email-input{
+    width: 23.2em;
+    height: 3em;
+    border-radius: 8px;
+    border:1px solid gray;
+    margin-top: 8px;
+    padding: 16px;
+    font-size: 16px;
+}
+
+.btn{
+    width: 23.2em;
+    height: 3.5em;
+    border-radius: 8px;
+    margin-left: 5px;
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+}
+.btn:hover{
+    background: linear-gradient(to right,#ea4310,#e71c1c);
+}
+label{
+    font-family: 'Roboto', sans-serif;  
+    font-weight: 600;
+    font-size: 13px;    
+}
+
+.descp{
+    padding: 10px;
+    margin-top: 5px;
+}
+ul{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+/* ------------------------------------------------- */
+/* For Success componenets */
+
+.success{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30em;
+    height: 28em;
+    background-color: white;
+    border-radius: 20px;
+}
+.fake{
+    width: 90%;
+    margin-top: -1em;
+}
+.img-container{
+    padding: 1em;
+}
+
+.img-container > img{
+    width: 68px;
+}
+
+.success-btn{
+    margin-top: 16px;
+}
+
+.success-descp{
+    font-size: 16px;
+}
+
+.success-msg{
+    margin-left: 0.3em;
+    font-size: 58px;
+}
+
+.success-btn{
+    margin-left: 1.3em;
+    border: none;
+}
+
+.success-btn:hover{
+    background: linear-gradient(to right,#ea4310,#e71c1c);
+}
+
+.success-descp{
+    width: 90%;
+    margin-left: 0.6em;
+}
+
+/* For Error */
+.error-msg{
+    font-family: 'Roboto', sans-serif;  
+    font-weight: 600;
+    font-size: 13px; 
+    color:#e71c1c;
+    position: absolute;
+    top:33.1em;
+    left: 46.5em;
+}
+
+.email-error{
+    border: 2px solid #e71c1c;
+    background-color: #ffc9c9;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+  <link rel = "stylesheet" href="./css/style.css"/>
+  <script defer type="text/javascript" src="./js/script.js"></script>
+</head>
+<body>
+<div class="main">
+     <div class="newsletter">
+      <div class="left">
+        <h1 class="header">Stay Updated!</h1>
+        <p class="descp">Join 600000+ product managers receiving monthly updates on:</p>
+        <ul>
+            <li>
+                <img src="./assets/images/icon-list.svg" alt=""/>
+                <p>Product discovery and building what matters</p>
+            </li>
+            <li>
+                <img src="./assets/images/icon-list.svg" alt=""/>
+                <p>Measuring to ensure updates are a success</p>
+            </li>
+            <li>
+                <img src="./assets/images/icon-list.svg" alt=""/>
+                <p>Ans much more!</p>
+            </li>
+        </ul>
+        <div class="error-msg"></div>
+        <div class="email-component">
+          <label for="email">Email Address</label>
+          <input class="email-input" type="email" id="email" placeholder="example@example.com"/>
+        </div>
+        <button class="btn " id="submitButton">Subscribe to monthly newsletter</button>
+      </div>
+      <div class="right">
+        <img class="nwl" src="./assets/images/illustration-sign-up-desktop.svg" alt="" />
+      </div>
+    </div> 
+    <div class="success">
+      <div class="fake">
+        <div class="img-container">
+            <img src="./assets/images/icon-success.svg" alt=""/>
+        </div>
+        <div class="content">
+            <h1 class="header success-msg">Thanks for Subscribing!</h1>
+            <p class="descp success-descp">A confirmation email has been sent to <span class="fake-email"></span>. Please open it and click the button inside to confirm your subscription.</p>
+        </div>
+        <button class="btn success-btn">Dismiss Meassage</button>
+      </div>
+    </div>
+   
+</div>
+</body>
+</html>
